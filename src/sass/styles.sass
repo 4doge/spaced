@@ -299,9 +299,7 @@ p
   justify-content: space-between
 
 .button-wrapper
-
-  &--bottom-corner
-    filter: drop-shadow(6px 4px 0 $medium-spring-green)
+  filter: drop-shadow(6px 4px 0 $medium-spring-green)
 
 .button
   cursor: pointer
@@ -323,3 +321,12 @@ p
   &--bottom-corner
     width: 152px
     clip-path: polygon(0 0, 85% 0%, 100% 100%, 0% 100%)
+
+  &--top-corner
+    width: 192px
+    clip-path: polygon(0 0, 100% 0%, 85% 100%, 0% 100%)
+
+.who-we-are
+  margin-top: 166px
+  // TODO: remove margin-bottom after coding the footer
+  margin-bottom: 200px
